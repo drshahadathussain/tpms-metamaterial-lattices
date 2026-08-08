@@ -11,11 +11,11 @@ All CAD files (`.stl`, `.3mf`) are stored in the root directory and organized by
 ```text
 tpms-metamaterial-lattices/
 │
-├── GY30_448x56x56_U28.stl      # Gyroid lattice
-├── PC30_448x56x56_U28.stl      # Schwarz Primitive lattice
-├── ...                         # Additional TPMS lattice models
-├── .gitignore                  # Excluded macOS & temp system files
-└── README.md                   # Repository documentation
+├── gyroid30_448x56x56_U28.stl         # Gyroid lattice
+├── primitive30_448x56x56_U28.stl      # Schwarz Primitive lattice
+├── ...                                # Additional TPMS lattice models
+├── .gitignore                         # Excluded macOS & temp system files
+└── README.md                          # Repository documentation
 ```
 
 ## 🔤 File Naming Convention
@@ -26,7 +26,7 @@ All CAD files follow a standardized parameter schema:
 <Topology><Relative Density>_<Bounding Dimensions>_<Unit Cells>.<ext>
 ```
 
-**Example:** `GY30_448x56x56_U28.stl`
+**Example:** `gyroid30_448x56x56_U28.stl`
 
 - **Topology:** `gyroid` (Gyroid), `primitive` (Schwarz Primitive), `diamond` (Schwarz Diamond)
 - **Relative Density:** `30` → 30% volume fraction
