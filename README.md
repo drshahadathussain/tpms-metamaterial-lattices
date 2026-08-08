@@ -28,7 +28,7 @@ All CAD files follow a standardized parameter schema:
 
 **Example:** `GY30_448x56x56_U28.stl`
 
-- **Topology:** `GY` (Gyroid), `PC` (Schwarz Primitive), `SD/D` (Schwarz Diamond)
+- **Topology:** `gyroid` (Gyroid), `primitive` (Schwarz Primitive), `diamond` (Schwarz Diamond)
 - **Relative Density:** `30` → 30% volume fraction
 - **Bounding Dimensions:** `448 × 56 × 56` mm
 - **Unit Cells:** `U28` → 28 unit cells along the longitudinal axis
