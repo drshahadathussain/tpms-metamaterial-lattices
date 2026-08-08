@@ -37,9 +37,9 @@ All CAD files follow a standardized parameter schema:
 
 | Surface Type | Abbreviation | Key Features | Applications |
 | :--- | :--- | :--- | :--- |
-| **Gyroid** | `GY` | High shear strength, continuous fluid channels | Heat exchangers, bone scaffolds, energy absorbers |
-| **Schwarz Primitive** | `PC` | High axial stiffness | Compression testing, lightweight structural cores |
-| **Schwarz Diamond** | `SD / D` | Isotropic mechanical response | Multi‑axial structural components |
+| **Gyroid** | `gyroid` | High shear strength, continuous fluid channels | Heat exchangers, bone scaffolds, energy absorbers |
+| **Schwarz Primitive** | `primitive` | High axial stiffness | Compression testing, lightweight structural cores |
+| **Schwarz Diamond** | `diamond` | Isotropic mechanical response | Multi‑axial structural components |
 
 ## 🛠️ Usage & Compatibility
 
